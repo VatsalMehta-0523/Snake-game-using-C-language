@@ -7,7 +7,7 @@ int tailX[100] , tailY[100];
 int body = 0 ;
 
 
-void setup();             
+void setup();                     // function declaration
 void input();
 void draw();
 void snakemovement();
