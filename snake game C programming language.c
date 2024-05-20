@@ -29,9 +29,9 @@ int main() {
 
 
 
-void snakemovement() {
-    int i ;
-    int prevx , prevy , prev2x , prev2y ;
+void snakemovement() {                             // function defination
+    int i ;       
+    int prevx , prevy , prev2x , prev2y ;          // local varailbles declaration
     prevx = tailX[0] ;
     prevy = tailY[0] ;
     tailX[0] = x ;
