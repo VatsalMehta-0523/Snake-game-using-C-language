@@ -1,12 +1,13 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<conio.h>
+// this varaiables are globaly declared as they can be directly used in function defination.
 int height = 20 , width = 20, x , y , fruitX , fruitY , flag , gameEnd , Score ;
 int tailX[100] , tailY[100];
 int body = 0 ;
 
 
-void setup();
+void setup();             
 void input();
 void draw();
 void snakemovement();
